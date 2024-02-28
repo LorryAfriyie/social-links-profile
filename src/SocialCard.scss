@@ -1,0 +1,49 @@
+.social-card {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+  .card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 1.75rem;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      height: 90px;
+      width: auto;
+    }
+
+    .location {
+      color: hsl(75, 94%, 57%);
+      font-weight: 600;
+    }
+
+    .bio {
+      color: hsl(0, 3%, 72%);
+      padding: 1.5rem;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+
+      button {
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        padding: 1rem;
+      }
+
+      button:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 12%);
+      }
+    }
+  }
+}

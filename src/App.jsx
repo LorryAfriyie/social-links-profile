@@ -1,7 +1,13 @@
 import "./App.css";
+import "./styles.scss";
+import { SocialCard } from "./SocialCard";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <SocialCard />
+    </>
+  );
 }
 
 export default App;
